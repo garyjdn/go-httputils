@@ -1,7 +1,6 @@
-module github.com/your-org/backend/shared/http-utils
+module github.com/garyjdn/go-httputils
 
-go 1.20
+go 1.24.0
 
-require github.com/your-org/backend/shared/app-error v0.0.0
+require github.com/garyjdn/go-apperror v1.0.1
 
-replace github.com/your-org/backend/shared/app-error => ../app-error

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	apperror "github.com/your-org/backend/shared/app-error"
+	apperror "github.com/garyjdn/go-apperror"
 )
 
 // Response represents a standard API response
